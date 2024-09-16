@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#PBS -u brijendra
-#PBS -N trapti
+#PBS -u Username
+#PBS -N Username2
 #PBS -q gpu
 #PBS -l select=2:ncpus=20:ngpus=1
 #PBS -o out.log
@@ -16,7 +16,7 @@ cd $PBS_O_WORKDIR
 
 
 
-python3 /nfsroot/data/home/brijendra/trapti/asd_NonASD.py
+python3 /nfsroot/data/home/brijendra/trapti/your_file_name.py
 
 
 exit;
