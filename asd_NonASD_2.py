@@ -49,7 +49,7 @@ from huggingface_hub import HfApi, HfFolder
 
 # Set the token directly
 api = HfApi()
-HfFolder.save_token('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')  # Saves token in the correct directory that Hugging Face libraries check
+HfFolder.save_token('Put you hugging face token here')  # Saves token in the correct directory that Hugging Face libraries check
 
 # from huggingface_hub import notebook_login
 # #  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
